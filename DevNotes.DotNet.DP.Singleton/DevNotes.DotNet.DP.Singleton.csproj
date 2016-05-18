@@ -43,6 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="SingletonForLazy .cs" />
+    <Compile Include="SingletonForSimple.cs" />
     <Compile Include="SingletonForThread.cs" />
   </ItemGroup>
   <ItemGroup />
