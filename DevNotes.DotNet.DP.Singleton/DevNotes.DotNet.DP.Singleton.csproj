@@ -42,8 +42,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />
-    <Compile Include="Singleton2.cs" />
-    <Compile Include="Singleton3.cs" />
+    <Compile Include="SingletonForLazy .cs" />
+    <Compile Include="SingletonForThread.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
