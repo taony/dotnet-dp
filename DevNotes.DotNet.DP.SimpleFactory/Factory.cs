@@ -8,6 +8,9 @@ namespace DevNotes.DotNet.DP.SimpleFactory
 {
     public class Factory
     {
+        public object GetFactory()
+        {
 
+        }
     }
 }
