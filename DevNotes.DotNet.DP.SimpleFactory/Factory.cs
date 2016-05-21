@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace DevNotes.DotNet.DP.SimpleFactory
 {
-    class Opration
+    public class Factory
     {
-        public double NumberA { get; set; }
-        public double NumberB { get; set; }
+
     }
 }
