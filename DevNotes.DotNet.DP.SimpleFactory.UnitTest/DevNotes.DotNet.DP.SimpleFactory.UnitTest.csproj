@@ -50,8 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ClientUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevNotes.DotNet.DP.SimpleFactory\DevNotes.DotNet.DP.SimpleFactory.csproj">
+      <Project>{f75ecaff-6601-42ab-8e6c-610c69827e25}</Project>
+      <Name>DevNotes.DotNet.DP.SimpleFactory</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
