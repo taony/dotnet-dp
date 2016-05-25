@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevNotes.DotNet.DP.AbstractFactory
 {
-    public abstract class AbstractFactory
+    interface IProduct
     {
     }
 }
