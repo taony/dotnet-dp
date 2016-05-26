@@ -45,6 +45,13 @@
     <Compile Include="DbSqlServerCreator.cs" />
     <Compile Include="DbFactory.cs" />
     <Compile Include="IDbCreator.cs" />
+    <Compile Include="Pizza\CheesePizza.cs" />
+    <Compile Include="Pizza\ClamPizza.cs" />
+    <Compile Include="Pizza\PizzaOrder.cs" />
+    <Compile Include="Pizza\Pizza.cs" />
+    <Compile Include="Pizza\PizzaFactory.cs" />
+    <Compile Include="Pizza\PizzaStore.cs" />
+    <Compile Include="Pizza\VeggiePizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
