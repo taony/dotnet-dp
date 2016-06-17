@@ -23,7 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Abstract
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Factory Method", "04-Factory Method", "{096842D8-CC4F-4211-8BCE-B58EAC945FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.FactoryMethod", "DevNotes.DotNet.FactoryMethod\DevNotes.DotNet.FactoryMethod.csproj", "{9DB6C776-6B2D-4CA7-A1B3-336739079DB3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Prototype", "05-Prototype", "{1BA1BA36-572D-4767-890F-56FC6C08FF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.FactoryMethod", "DevNotes.DotNet.DP.FactoryMethod\DevNotes.DotNet.DP.FactoryMethod.csproj", "{9DB6C776-6B2D-4CA7-A1B3-336739079DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Prototype", "DevNotes.DotNet.DP.Prototype\DevNotes.DotNet.DP.Prototype.csproj", "{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{9DB6C776-6B2D-4CA7-A1B3-336739079DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB6C776-6B2D-4CA7-A1B3-336739079DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB6C776-6B2D-4CA7-A1B3-336739079DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,5 +78,6 @@ Global
 		{A19F70CE-8726-4018-A661-6098EBE5C319} = {B3F82FCF-2B93-4750-8359-625527F53057}
 		{C1FB9FE7-3F1D-4ABA-8100-0886D88E5F53} = {6A53DAD7-45CA-4C36-A366-26EDB1843F21}
 		{9DB6C776-6B2D-4CA7-A1B3-336739079DB3} = {096842D8-CC4F-4211-8BCE-B58EAC945FF0}
+		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C} = {1BA1BA36-572D-4767-890F-56FC6C08FF34}
 	EndGlobalSection
 EndGlobal
