@@ -1,4 +1,4 @@
-﻿namespace DevNotes.DotNet.DP.Singleton
+﻿namespace DevNotes.DotNet.DP.Singleton.Basic
 {
     /// <summary>
     /// 单体模式一

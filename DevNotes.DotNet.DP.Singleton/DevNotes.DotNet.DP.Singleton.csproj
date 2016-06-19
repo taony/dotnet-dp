@@ -41,10 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singleton.cs" />
-    <Compile Include="SingletonForLazy .cs" />
-    <Compile Include="SingletonForSimple.cs" />
-    <Compile Include="SingletonForThread.cs" />
+    <Compile Include="Basic\Singleton.cs" />
+    <Compile Include="Lazy\Singleton .cs" />
+    <Compile Include="Simple\Singleton.cs" />
+    <Compile Include="Thread\Singleton.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

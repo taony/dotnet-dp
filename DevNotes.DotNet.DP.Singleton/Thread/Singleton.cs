@@ -1,14 +1,14 @@
-﻿namespace DevNotes.DotNet.DP.Singleton
+﻿namespace DevNotes.DotNet.DP.Singleton.Thread
 {
     /// <summary>
     /// 线程安全的单体模式
     /// </summary>
-    public class SingletonForThread
+    public class Singleton
     {
         /// <summary>
         /// 单体实例
         /// </summary>
-        private static SingletonForThread _instance;
+        private static Singleton _instance;
         /// <summary>
         /// 线程安全锁
         /// </summary>
@@ -17,7 +17,7 @@
         /// <summary>
         /// 构造函数
         /// </summary>
-        private SingletonForThread()
+        private Singleton()
         {
         }
 
@@ -25,7 +25,7 @@
         /// 获取流程实例
         /// </summary>
         /// <returns></returns>
-        public static SingletonForThread GetInstance()
+        public static Singleton GetInstance()
         {
             //双重锁方式较好地解决了多线程下的单例模式实现
             if (null == _instance)
@@ -34,7 +34,7 @@
                 {
                     if (null == _instance)
                     {
-                        _instance = new SingletonForThread();
+                        _instance = new Singleton();
                     }
                 }
             }
