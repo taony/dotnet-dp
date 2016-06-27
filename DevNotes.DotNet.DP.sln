@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP", "DevNotes.DotNet.DP\DevNotes.DotNet.DP.csproj", "{A815AD3E-36C0-430D-9B83-09687B371102}"
 EndProject
@@ -24,6 +24,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.FactoryMethod", "DevNotes.DotNet.DP.FactoryMethod\DevNotes.DotNet.DP.FactoryMethod.csproj", "{9DB6C776-6B2D-4CA7-A1B3-336739079DB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Prototype", "DevNotes.DotNet.DP.Prototype\DevNotes.DotNet.DP.Prototype.csproj", "{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Adapter", "06-Adapter", "{CCF37CEB-F9D3-4F1E-94D0-EC28FCE9C525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Bridge", "07-Bridge", "{E1CEB9EE-426D-45C1-9251-271EA0DEC692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-Composite", "08-Composite", "{08FDFC22-876F-4283-9CBE-599AF94B1A85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-Decorator", "09-Decorator", "{A72F82BD-B3ED-44C6-974B-D2800D369FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-Facade", "10-Facade", "{1ABBC193-DDCA-4A74-834D-3A09FDB3AE5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-FlyWeight", "11-FlyWeight", "{B4DE13C9-1FF7-42F4-B83B-B27DD3470F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-Proxy", "12-Proxy", "{6E9BC0ED-F048-4B19-A004-B56A8B2D0329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Adapter", "DevNotes.DotNet.DP.Adapter\DevNotes.DotNet.DP.Adapter.csproj", "{F22E8B65-B046-463B-8C17-77F90581C000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Bridge", "DevNotes.DotNet.DP.Bridge\DevNotes.DotNet.DP.Bridge.csproj", "{C764B908-1782-4FEF-937C-C302ADFC6320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +73,14 @@ Global
 		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22E8B65-B046-463B-8C17-77F90581C000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22E8B65-B046-463B-8C17-77F90581C000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22E8B65-B046-463B-8C17-77F90581C000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22E8B65-B046-463B-8C17-77F90581C000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C764B908-1782-4FEF-937C-C302ADFC6320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C764B908-1782-4FEF-937C-C302ADFC6320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C764B908-1782-4FEF-937C-C302ADFC6320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C764B908-1782-4FEF-937C-C302ADFC6320}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,5 +91,7 @@ Global
 		{C1FB9FE7-3F1D-4ABA-8100-0886D88E5F53} = {6A53DAD7-45CA-4C36-A366-26EDB1843F21}
 		{9DB6C776-6B2D-4CA7-A1B3-336739079DB3} = {096842D8-CC4F-4211-8BCE-B58EAC945FF0}
 		{E0E02F07-C660-45B6-8E57-E4FCE6FC677C} = {1BA1BA36-572D-4767-890F-56FC6C08FF34}
+		{F22E8B65-B046-463B-8C17-77F90581C000} = {CCF37CEB-F9D3-4F1E-94D0-EC28FCE9C525}
+		{C764B908-1782-4FEF-937C-C302ADFC6320} = {E1CEB9EE-426D-45C1-9251-271EA0DEC692}
 	EndGlobalSection
 EndGlobal
