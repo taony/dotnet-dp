@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevNotes.DotNet.DP.AbstractFactory
+namespace DevNotes.DotNet.DP.AbstractFactory.Products
 {
-    interface IProduct
+    public abstract class AbstractMainboard
     {
+        public abstract void Print();
     }
 }

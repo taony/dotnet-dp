@@ -41,9 +41,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory.cs" />
-    <Compile Include="IProduct.cs" />
+    <Compile Include="ComputerBuilder.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Factory\AmdFactory.cs" />
+    <Compile Include="Factory\IntelFactory.cs" />
+    <Compile Include="Products\AbstractCpu.cs" />
+    <Compile Include="Products\AbstractMainboard.cs" />
+    <Compile Include="Products\Amd\AmdCpu.cs" />
+    <Compile Include="Products\Amd\AmdMainboard.cs" />
+    <Compile Include="Products\Intel\IntelCpu.cs" />
+    <Compile Include="Products\Intel\IntelMainboard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
