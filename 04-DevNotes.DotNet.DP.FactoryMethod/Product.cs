@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevNotes.DotNet.FactoryMethod
 {
-    class Product
+    public abstract class Product
     {
     }
 }

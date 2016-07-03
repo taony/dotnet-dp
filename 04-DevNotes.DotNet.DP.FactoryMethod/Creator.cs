@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DevNotes.DotNet.FactoryMethod
 {
-    class Creator
+    public abstract class Creator
     {
+
     }
 }
