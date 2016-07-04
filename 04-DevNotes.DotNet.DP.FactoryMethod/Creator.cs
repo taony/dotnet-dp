@@ -8,6 +8,10 @@ namespace DevNotes.DotNet.FactoryMethod
 {
     public abstract class Creator
     {
-
+        /// <summary>
+        /// 创建产品
+        /// </summary>
+        /// <returns></returns>
+        public abstract Product GetProduct();
     }
 }

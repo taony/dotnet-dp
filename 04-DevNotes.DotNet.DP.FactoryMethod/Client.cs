@@ -1,12 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevNotes.DotNet.FactoryMethod
 {
     public class Client
     {
+        public static void Main(string[] args)
+        {
+            Creator creator = new ConcreteCreator();
+            Product product = creator.GetProduct();
+            if (null != product)
+            {
+                Console.WriteLine(product.ToString());
+            }
+        }
+
     }
 }
