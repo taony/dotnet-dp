@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="ConcreteProperty1.cs" />
+    <Compile Include="ConcreteProperty2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
