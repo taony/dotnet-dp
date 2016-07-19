@@ -17,9 +17,7 @@
         /// <summary>
         /// 构造函数
         /// </summary>
-        private Singleton()
-        {
-        }
+        private Singleton() { }
 
         /// <summary>
         /// 获取流程实例

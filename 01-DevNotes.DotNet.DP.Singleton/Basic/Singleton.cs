@@ -9,10 +9,7 @@
         private static Singleton _instance = null;
 
         //私有构造函数
-        private Singleton()
-        {
-
-        }
+        private Singleton() { }
 
         //静态工厂方法
         public static Singleton CreateInstance()
