@@ -1,12 +1,10 @@
 # DevNotes-DotNet-DP
 
-00-DevNotes.DotNet.DP
+1、单体模式：01-DevNotes.DotNet.DP.Singleton
 
-01-DevNotes.DotNet.DP.Singleton
+2、简单工厂模式：02-DevNotes.DotNet.DP.SimpleFactory
 
-02-DevNotes.DotNet.DP.SimpleFactory
-
-03-DevNotes.DotNet.DP.FactoryMethod
+3、工厂方法模式：03-DevNotes.DotNet.DP.FactoryMethod
 
 04-DevNotes.DotNet.DP.AbstractFactory
 
