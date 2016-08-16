@@ -6,12 +6,12 @@
 
 3、工厂方法模式：03-DevNotes.DotNet.DP.FactoryMethod
 
-04-DevNotes.DotNet.DP.AbstractFactory
+4、抽象工程模式：04-DevNotes.DotNet.DP.AbstractFactory
 
-05-DevNotes.DotNet.DP.Prototype
+5、原型模式：05-DevNotes.DotNet.DP.Prototype
 
-06-DevNotes.DotNet.DP.Builder
+6、建造者模式：06-DevNotes.DotNet.DP.Builder
 
-07-DevNotes.DotNet.DP.Adapter
+7、适配器模式：07-DevNotes.DotNet.DP.Adapter
 
-08-DevNotes.DotNet.DP.Bridge
+8、桥接模式：08-DevNotes.DotNet.DP.Bridge
