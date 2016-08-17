@@ -16,4 +16,4 @@
 
 8、桥接模式：08-DevNotes.DotNet.DP.Bridge
 
-9、装饰者模式
+9、装饰者模式 DevNotes.DotNet.DP
