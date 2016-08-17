@@ -15,3 +15,5 @@
 7、适配器模式：07-DevNotes.DotNet.DP.Adapter
 
 8、桥接模式：08-DevNotes.DotNet.DP.Bridge
+
+9、装饰者模式
