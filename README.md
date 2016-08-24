@@ -48,12 +48,12 @@
 在对象的结构和对象的创建问题都解决了之后，就剩下对象的行为问题了，如果对象的行为设计的好，那么对象的行为就会更清晰，它们之间的协作效率就会提高，这里有11个具体的行为型模式可供研究，它们分别是：
 模板方法模式（Template Method）；
 观察者模式（Observer）；
-状态模式（State）；
-策略模式（Strategy）；
-职责链模式（Chain of Responsibility）；
-命令模式（Command）；
-访问者模式（Visitor）；
-调停者模式（Mediator）；
-备忘录模式（Memento）；
-迭代器模式（Iterator）；
+状态模式（State）
+策略模式（Strategy）
+职责链模式（Chain of Responsibility）
+命令模式（Command）
+访问者模式（Visitor）
+调停者模式（Mediator）
+备忘录模式（Memento）
+迭代器模式（Iterator）
 解释器模式（Interpreter）
