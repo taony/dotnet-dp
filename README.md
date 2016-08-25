@@ -24,12 +24,12 @@
 
 社会化的分工越来越细，自然在软件设计方面也是如此，因此对象的创建和对象的使用分开也就成为了必然趋势。因为对象的创建会消耗掉系统的很多资源，所以单独对对象的创建进行研究，从而能够高效地创建对象就是创建型模式要探讨的问题。
 这里有6个具体的创建型模式可供研究，它们分别是：
-简单工厂模式（Simple Factory）；
-工厂方法模式（Factory Method）；
-抽象工厂模式（Abstract 3Factory）；
-创建者模式（Builder）；
-原型模式（Prototype）；
-单例模式（Singleton）。
+简单工厂模式（Simple Factory）
+工厂方法模式（Factory Method）
+抽象工厂模式（Abstract Factory）
+创建者模式（Builder）
+原型模式（Prototype）
+单例模式（Singleton）
 说明：严格来说，简单工厂模式不是GoF总结出来的23种设计模式之一。
 
 二、结构型模式
@@ -46,8 +46,8 @@
 三、行为型模式
 
 在对象的结构和对象的创建问题都解决了之后，就剩下对象的行为问题了，如果对象的行为设计的好，那么对象的行为就会更清晰，它们之间的协作效率就会提高，这里有11个具体的行为型模式可供研究，它们分别是：
-模板方法模式（Template Method）；
-观察者模式（Observer）；
+模板方法模式（Template Method）
+观察者模式（Observer）
 状态模式（State）
 策略模式（Strategy）
 职责链模式（Chain of Responsibility）
