@@ -22,12 +22,13 @@
         /// <summary>
         /// 获取流程实例
         /// </summary>
-        /// <returns></returns>
+        /// <returns>实例</returns>
         public static Singleton GetInstance()
         {
             //双重锁方式较好地解决了多线程下的单例模式实现
             if (null == _instance)
             {
+                //加锁
                 lock (_lock)
                 {
                     if (null == _instance)
