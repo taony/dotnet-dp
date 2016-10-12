@@ -6,7 +6,7 @@
 
 3、工厂方法模式：03-DevNotes.DotNet.DP.FactoryMethod
 
-4、抽象工程模式：04-DevNotes.DotNet.DP.AbstractFactory
+4、抽象工厂模式：04-DevNotes.DotNet.DP.AbstractFactory
 
 5、原型模式：05-DevNotes.DotNet.DP.Prototype
 
