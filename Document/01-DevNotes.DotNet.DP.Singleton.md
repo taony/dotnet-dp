@@ -1,38 +1,108 @@
-# C#设计模式系列笔记：DevNotes-DotNet-DP #
+# 单体模式 Singleton
+## 一、定义
+保证类仅有一个实例，并提供一个访问它的全局访问点。
+## 二、结构图
 
-10/12/2016 11:43:22 PM 
-----------
+![image](http://oexa57lqy.bkt.clouddn.com/20160619110657690.jpg)
 
-## 模式分类 ##
 
-### 1、创建型模式模式 ###
+## 三、适用场景
 
-社会化的分工越来越细，自然在软件设计方面也是如此，因此对象的创建和对象的使用分开也就成为了必然趋势。因为对象的创建会消耗掉系统的很多资源，所以单独对对象的创建进行研究，从而能够高效地创建对象就是创建型模式要探讨的问题。 这里有6个具体的创建型模式可供研究，它们分别是： 简单工厂模式（Simple Factory） 工厂方法模式（Factory Method） 抽象工厂模式（Abstract Factory） 创建者模式（Builder） 原型模式（Prototype） 单例模式（Singleton） 注：严格来说，简单工厂模式不是GoF总结出来的23种设计模式之一。
+1、当类只能有一个实例而且客户可以从一个众所周知的访问点访问它时。 
 
-### 2、结构型模式 ###
+2、当这个唯一实例应该是通过子类化可扩展的，并切客户应该无需更改代码就能使用一个扩展的实例时。
 
-在解决了对象的创建问题之后，对象的组成以及对象之间的依赖关系就成了开发人员关注的焦点，因为如何设计对象的结构、继承和依赖关系会影响到后续程序的维护性、代码的健壮性、耦合性等。对象结构的设计很容易体现出设计人员水平的高低，这里有7个具体的结构型模式可供研究，它们分别是： 外观模式（Facade） 适配器模式（Adapter） 代理模式（Proxy） 装饰模式（Decorator） 桥模式（Bridge） 组合模式（Composite） 享元模式（Flyweight）
+## 四、模式实现
 
-### 3、行为型模式 ###
+### 1、基本的单体模式
 
-在对象的结构和对象的创建问题都解决了之后，就剩下对象的行为问题了，如果对象的行为设计的好，那么对象的行为就会更清晰，它们之间的协作效率就会提高，这里有11个具体的行为型模式可供研究，它们分别是： 模板方法模式（Template Method） 观察者模式（Observer） 状态模式（State） 策略模式（Strategy） 职责链模式（Chain of Responsibility） 命令模式（Command） 访问者模式（Visitor） 调停者模式（Mediator） 备忘录模式（Memento） 迭代器模式（Iterator） 解释器模式（Interpreter）
+Singleton类定义一个GetInstance操作，允许客户访问它的唯一实例。GetInstance是一个静态方法，主要负责创建自己的唯一实例。
 
-## 设计模式 ##
+```
+/// <summary>
+    /// 单体模式一
+    /// </summary>
+    public class Singleton
+    {
+        //私有，静态实例
+        private static Singleton _instance = null;
 
-### 1、单体模式：		01-DevNotes.DotNet.DP.Singleton
+        //私有构造函数
+        private Singleton()
+        {
 
-### 2、简单工厂模式：	02-DevNotes.DotNet.DP.SimpleFactory
+        }
 
-### 3、工厂方法模式：	03-DevNotes.DotNet.DP.FactoryMethod
+        //静态工厂方法
+        public static Singleton CreateInstance()
+        {
+            return _instance ?? (_instance = new Singleton());
+        }
+    }
+```
+### 2、懒加载的单体模式
 
-### 4、抽象工厂模式：	04-DevNotes.DotNet.DP.AbstractFactory
+```
+   /// <summary>
+    /// 延迟实例化的单体模式
+    /// </summary>
+    public class SingletonForLazy
+    {
+        //初始暂不实例化
+        private static SingletonForLazy _instance = null;
 
-### 5、原型模式：		05-DevNotes.DotNet.DP.Prototype
+        //私有的构造子(构造器,构造函数,构造方法)
+        private SingletonForLazy() { }
 
-### 6、建造者模式：	06-DevNotes.DotNet.DP.Builder
+        //静态的工厂方法，需要使用时才去创建该单体
+        public static SingletonForLazy GetInstance()
+        {
+            return _instance ?? (_instance = new SingletonForLazy());
+        }
+    }
+```
+### 3、线程安全的单体模式
 
-### 7、适配器模式：	07-DevNotes.DotNet.DP.Adapter
+```
+ /// <summary>
+    /// 线程安全的单体模式
+    /// </summary>
+    public class SingletonForThread
+    {
+        /// <summary>
+        /// 单体实例
+        /// </summary>
+        private static SingletonForThread _instance;
+        /// <summary>
+        /// 线程安全锁
+        /// </summary>
+        private static object _lock = new object();
 
-### 8、桥接模式：		08-DevNotes.DotNet.DP.Bridge
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        private SingletonForThread()
+        {
+        }
 
-### 9、装饰者模式 		09-DevNotes.DotNet.DP ##
+        /// <summary>
+        /// 获取流程实例
+        /// </summary>
+        /// <returns></returns>
+        public static SingletonForThread GetInstance()
+        {
+            //双重锁方式较好地解决了多线程下的单例模式实现
+            if (null == _instance)
+            {
+                lock (_lock)
+                {
+                    if (null == _instance)
+                    {
+                        _instance = new SingletonForThread();
+                    }
+                }
+            }
+            return _instance;
+        }
+    }
+```
