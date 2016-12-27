@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Singleton", "01-Singleton", "{8528C48A-9D40-4720-B674-C3DC5568899E}"
 EndProject
@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Adapter"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Bridge", "08-DevNotes.DotNet.DP.Bridge\DevNotes.DotNet.DP.Bridge.csproj", "{C764B908-1782-4FEF-937C-C302ADFC6320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Decorator", "DevNotes.DotNet.DP.Decorator\DevNotes.DotNet.DP.Decorator.csproj", "{F0EF67E9-A14A-4610-9F79-966B5F7BA332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{C764B908-1782-4FEF-937C-C302ADFC6320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C764B908-1782-4FEF-937C-C302ADFC6320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C764B908-1782-4FEF-937C-C302ADFC6320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,5 +108,6 @@ Global
 		{86B2D4D8-4AE8-4678-98F1-D6110A53A830} = {32B08377-C94D-42D6-8C01-96EAAE78C0B0}
 		{F22E8B65-B046-463B-8C17-77F90581C000} = {CCF37CEB-F9D3-4F1E-94D0-EC28FCE9C525}
 		{C764B908-1782-4FEF-937C-C302ADFC6320} = {E1CEB9EE-426D-45C1-9251-271EA0DEC692}
+		{F0EF67E9-A14A-4610-9F79-966B5F7BA332} = {A72F82BD-B3ED-44C6-974B-D2800D369FA6}
 	EndGlobalSection
 EndGlobal
