@@ -43,8 +43,8 @@
     <Compile Include="Client.cs" />
     <Compile Include="Component.cs" />
     <Compile Include="ConcreteComponent.cs" />
-    <Compile Include="ConcreteComponentA.cs" />
-    <Compile Include="ConcreteComponentB.cs" />
+    <Compile Include="ConcreteDirectorA.cs" />
+    <Compile Include="ConcreteDirectorB.cs" />
     <Compile Include="Director.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 ﻿namespace DevNotes.DotNet.DP.Decorator
 {
-    public class ConcreteComponentB
+    public class ConcreteDirectorA: Director
     {
         
     }
