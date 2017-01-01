@@ -2,6 +2,8 @@
 {
     public class ConcreteDirectorA: Director
     {
-        
+        public ConcreteDirectorA(IComponent component) : base(component)
+        {
+        }
     }
 }

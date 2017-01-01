@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="Component.cs" />
+    <Compile Include="IComponent.cs" />
     <Compile Include="ConcreteComponent.cs" />
     <Compile Include="ConcreteDirectorA.cs" />
     <Compile Include="ConcreteDirectorB.cs" />

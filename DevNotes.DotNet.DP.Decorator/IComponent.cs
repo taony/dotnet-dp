@@ -1,10 +1,10 @@
 ﻿namespace DevNotes.DotNet.DP.Decorator
 {
-    public abstract class Component
+    public interface IComponent
     {
         /// <summary>
         /// 操作
         /// </summary>
-        public abstract void Operate();
+        void Operate();
     }
 }
