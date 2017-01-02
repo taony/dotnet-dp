@@ -4,6 +4,18 @@
     {
         public ConcreteDirectorA(IComponent component) : base(component)
         {
+
+        }
+
+        private void DrictorAOprate()
+        {
+
+        }
+
+        public override void Operate()
+        {
+            base.Operate();
+            DrictorAOprate();
         }
     }
 }

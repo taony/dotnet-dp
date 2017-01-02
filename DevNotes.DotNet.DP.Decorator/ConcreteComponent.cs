@@ -2,7 +2,7 @@
 {
     public class ConcreteComponent : IComponent
     {
-        public override void Operate()
+        public void Operate()
         {
             throw new System.NotImplementedException();
         }

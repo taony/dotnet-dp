@@ -2,18 +2,22 @@
 
 namespace DevNotes.DotNet.DP.Decorator
 {
-    public abstract  class Director : IComponent
+    public abstract class Director : IComponent
     {
-        public IComponent Component;
+        protected IComponent component;
 
-        protected Director(IComponent component)
+        protected Director(IComponent _component)
         {
-            Component = component;
+            component = _component;
         }
 
         public virtual void Operate()
         {
-            throw new NotImplementedException();
+            if (null != component)
+            {
+                component.Operate();
+            }
+
         }
     }
 }
