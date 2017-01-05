@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Adapter"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Bridge", "08-DevNotes.DotNet.DP.Bridge\DevNotes.DotNet.DP.Bridge.csproj", "{C764B908-1782-4FEF-937C-C302ADFC6320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Decorator", "DevNotes.DotNet.DP.Decorator\DevNotes.DotNet.DP.Decorator.csproj", "{F0EF67E9-A14A-4610-9F79-966B5F7BA332}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Decorator", "10-DevNotes.DotNet.DP.Decorator\DevNotes.DotNet.DP.Decorator.csproj", "{F0EF67E9-A14A-4610-9F79-966B5F7BA332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
