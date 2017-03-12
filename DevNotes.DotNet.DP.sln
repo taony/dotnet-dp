@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Bridge",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Decorator", "10-DevNotes.DotNet.DP.Decorator\DevNotes.DotNet.DP.Decorator.csproj", "{F0EF67E9-A14A-4610-9F79-966B5F7BA332}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Composite", "09-DevNotes.DotNet.DP.Composite\DevNotes.DotNet.DP.Composite\DevNotes.DotNet.DP.Composite.csproj", "{45E581FB-E654-4AE9-9219-2C8B483BE12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Composite.Test", "09-DevNotes.DotNet.DP.Composite\DevNotes.DotNet.DP.Composite.Test\DevNotes.DotNet.DP.Composite.Test.csproj", "{38CAC829-527B-4591-B39C-A83CFFAC4907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +99,14 @@ Global
 		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0EF67E9-A14A-4610-9F79-966B5F7BA332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E581FB-E654-4AE9-9219-2C8B483BE12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E581FB-E654-4AE9-9219-2C8B483BE12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E581FB-E654-4AE9-9219-2C8B483BE12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E581FB-E654-4AE9-9219-2C8B483BE12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,5 +121,7 @@ Global
 		{F22E8B65-B046-463B-8C17-77F90581C000} = {CCF37CEB-F9D3-4F1E-94D0-EC28FCE9C525}
 		{C764B908-1782-4FEF-937C-C302ADFC6320} = {E1CEB9EE-426D-45C1-9251-271EA0DEC692}
 		{F0EF67E9-A14A-4610-9F79-966B5F7BA332} = {A72F82BD-B3ED-44C6-974B-D2800D369FA6}
+		{45E581FB-E654-4AE9-9219-2C8B483BE12D} = {08FDFC22-876F-4283-9CBE-599AF94B1A85}
+		{38CAC829-527B-4591-B39C-A83CFFAC4907} = {08FDFC22-876F-4283-9CBE-599AF94B1A85}
 	EndGlobalSection
 EndGlobal
