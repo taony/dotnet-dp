@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../00-DevNotes.DotNet.DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../01-DevNotes.DotNet.DP.Singleton" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../02-DevNotes.DotNet.DP.SimpleFactory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../03-DevNotes.DotNet.DP.FactoryMethod" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../04-DevNotes.DotNet.DP.AbstractFactory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../05-DevNotes.DotNet.DP.Prototype" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../06-DevNotes.DotNet.DP.Builder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../07-DevNotes.DotNet.DP.Adapter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../08-DevNotes.DotNet.DP.Bridge" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../00-DevNotes.DotNet.DP/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../00-DevNotes.DotNet.DP/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../01-DevNotes.DotNet.DP.Singleton/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../01-DevNotes.DotNet.DP.Singleton/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../02-DevNotes.DotNet.DP.SimpleFactory/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../02-DevNotes.DotNet.DP.SimpleFactory/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../03-DevNotes.DotNet.DP.FactoryMethod/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../03-DevNotes.DotNet.DP.FactoryMethod/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../04-DevNotes.DotNet.DP.AbstractFactory/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../04-DevNotes.DotNet.DP.AbstractFactory/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../05-DevNotes.DotNet.DP.Prototype/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../05-DevNotes.DotNet.DP.Prototype/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../06-DevNotes.DotNet.DP.Builder/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../06-DevNotes.DotNet.DP.Builder/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../07-DevNotes.DotNet.DP.Adapter/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../07-DevNotes.DotNet.DP.Adapter/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../08-DevNotes.DotNet.DP.Bridge/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../08-DevNotes.DotNet.DP.Bridge/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

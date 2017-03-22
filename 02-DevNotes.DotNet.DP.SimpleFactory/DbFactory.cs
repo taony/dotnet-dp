@@ -30,10 +30,8 @@ namespace DevNotes.DotNet.DP.SimpleFactory
                         return new DbMySqlCreator();
                 }
             }
-            else
-            {
-                Console.WriteLine("NULL DB TYPE VALUE! ");
-            }
+
+            Console.WriteLine("NULL DB TYPE VALUE! ");
             return null;
         }
     }
