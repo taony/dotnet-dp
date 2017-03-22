@@ -18,7 +18,10 @@ namespace DevNotes.DotNet.FactoryMethod
         /// </summary>
         public string ProductCode { get; set; }
 
-
+       /// <summary>
+       /// 
+       /// </summary>
+       /// <returns></returns>
         public override string ToString()
         {
             return $"产品名称：{ProductName}；产品编号：{ProductCode}";
