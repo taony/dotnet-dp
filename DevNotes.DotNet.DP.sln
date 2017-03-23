@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Singleton", "01-Singleton", "{8528C48A-9D40-4720-B674-C3DC5568899E}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Composite", "09-DevNotes.DotNet.DP.Composite\DevNotes.DotNet.DP.Composite\DevNotes.DotNet.DP.Composite.csproj", "{45E581FB-E654-4AE9-9219-2C8B483BE12D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Composite.Test", "09-DevNotes.DotNet.DP.Composite\DevNotes.DotNet.DP.Composite.Test\DevNotes.DotNet.DP.Composite.Test.csproj", "{38CAC829-527B-4591-B39C-A83CFFAC4907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevNotes.DotNet.DP.Facade", "11-DevNotes.DotNet.DP.Facade\DevNotes.DotNet.DP.Facade\DevNotes.DotNet.DP.Facade.csproj", "{39B44616-CEA9-4DEF-AFF9-A219961B1608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,10 @@ Global
 		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38CAC829-527B-4591-B39C-A83CFFAC4907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B44616-CEA9-4DEF-AFF9-A219961B1608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B44616-CEA9-4DEF-AFF9-A219961B1608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B44616-CEA9-4DEF-AFF9-A219961B1608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B44616-CEA9-4DEF-AFF9-A219961B1608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,5 +129,6 @@ Global
 		{F0EF67E9-A14A-4610-9F79-966B5F7BA332} = {A72F82BD-B3ED-44C6-974B-D2800D369FA6}
 		{45E581FB-E654-4AE9-9219-2C8B483BE12D} = {08FDFC22-876F-4283-9CBE-599AF94B1A85}
 		{38CAC829-527B-4591-B39C-A83CFFAC4907} = {08FDFC22-876F-4283-9CBE-599AF94B1A85}
+		{39B44616-CEA9-4DEF-AFF9-A219961B1608} = {1ABBC193-DDCA-4A74-834D-3A09FDB3AE5C}
 	EndGlobalSection
 EndGlobal
