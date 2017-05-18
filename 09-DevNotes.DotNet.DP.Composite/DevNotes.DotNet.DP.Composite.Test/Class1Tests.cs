@@ -14,7 +14,7 @@ namespace DevNotes.DotNet.DP.Composite.Test
         [TestMethod()]
         public void PrintTest()
         {
-           Class1 clazz=new Class1();
+           Test clazz=new Test();
             clazz.Print();
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevNotes.DotNet.DP.Composite
 {
-    public class Class1
+    public class Test
     {
 
         public void Print()
