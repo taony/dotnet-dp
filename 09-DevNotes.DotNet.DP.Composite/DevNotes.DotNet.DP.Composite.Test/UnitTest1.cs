@@ -9,6 +9,7 @@ namespace DevNotes.DotNet.DP.Composite.Test
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }
