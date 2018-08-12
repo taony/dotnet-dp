@@ -1,4 +1,4 @@
-# DevNotes-DotNet-DP
+# DevNotes-DotNet-DP .NET设计模式系列
 
 1、单体模式：01-DevNotes.DotNet.DP.Singleton
 
